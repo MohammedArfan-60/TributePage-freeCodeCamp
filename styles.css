@@ -1,0 +1,136 @@
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+main {
+    background-color: #9484b5;
+}
+
+#title {
+    margin-top: 50px;
+    font-size: 40px;
+    color: #130a27;
+    background-color: transparent;
+    border-top: 2px solid #130a27;
+    cursor: pointer;
+    transition: 0.9s;
+}
+
+
+#title:hover {
+    color: #fff;
+    background-color: #9484b5;
+    border: none;
+    border-bottom: 2px solid #130a27;
+}
+
+.header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#img-div {
+    width: 95%;
+    margin: 5px auto;
+}
+
+#img-div>#image {
+    display: block;
+    margin: 20px auto;
+    width: 60%;
+    max-width: 100%;
+    height: auto;
+}
+
+#img-div>#img-caption {
+    width: 59%;
+    margin: 5px auto;
+    padding-bottom: 20px;
+    color: #fff;
+    animation: blink 3s infinite;
+    animation-delay: 2s;
+}
+
+@keyframes blink {
+    0% {
+        color: #000;
+    }
+
+    100% {
+        color: #fff;
+    }
+}
+
+
+#tribute-info {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#tribute-info>h3 {
+    margin: 50px 0 20px 0;
+    font-size: 1.5em;
+}
+
+span {
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1em;
+    transition: 0.9s;
+}
+
+span,
+li:hover {
+    font-size: 2em;
+    color: #28164d72;
+}
+
+#tribute-info>div>ul>li {
+    width: 45%;
+    margin: 20px auto;
+    line-height: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#tribute-info>div>ul>li:hover {
+    color: #fff;
+}
+
+
+
+footer {
+    margin: 20px 0;
+    padding: 22px;
+}
+
+a {
+    cursor: pointer;
+    color: #fbfcff;
+}
+
+a:hover {
+    color: #130a274d;
+}
+
+
+
+q {
+    margin: 20px 0 0 0;
+    padding: 6px;
+    cursor: pointer;
+    border: 2px solid #fff;
+    background-color: #130a27;
+    color: #fff;
+    font-size: 20px;
+}
